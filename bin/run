@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export MSYS_NO_PATHCONV=1 # fix windows git bash bug
+
+working_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.." && cd "$working_dir" || exit
+
+docker-compose \
+	-f ./docker/node.yml \
+  run \
+  --rm \
+  -e DEBUG="$DEBUG" torrent-api "$@"

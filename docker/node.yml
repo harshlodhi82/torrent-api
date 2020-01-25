@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  torrent-api:
+    image: node:12.5.0
+    volumes:
+      - ../torrent-api:/usr/src/service/node
+      - torrent-api-node_modules:/usr/src/service/node/node_modules
+    working_dir: /usr/src/service/node
+
+volumes:
+  torrent-api-node_modules:
