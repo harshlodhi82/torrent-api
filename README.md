@@ -1,7 +1,7 @@
 ## Files are in `torrent-api/lib/`
 #### Install (tested with node version 12)
 ```
-cd poster
+cd torrent-api
 npm install
 ```
 ## Tests
@@ -10,12 +10,12 @@ Test framework is `jest`. See documentation https://www.npmjs.com/package/jest
 
 ## Running tests
 ```
-cd poster
+cd torrent-api
 npm test
 ```
 or just one file (replace fileName with the file name)
 ```
-cd poster
+cd torrent-api
 npm test fileName
 ```
 in docker
