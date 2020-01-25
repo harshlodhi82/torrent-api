@@ -8,7 +8,8 @@ const getTorrentByName = async function (name: string) : Promise<Torrent> {
     size: 1,
     categories: 'string',
     createdAt: 'string',
-    dates: []
+    dates: [],
+    files: []
   }
 }
 
