@@ -5,7 +5,7 @@ import {DB} from 'lib/settings'
 
 class Db {
   constructor ({dbPath} = {}) {
-    this._sequelize = new Sequelize(
+    this.sequelize = new Sequelize(
       DB.NAME,
       DB.USERNAME,
       DB.PASSWORD,
@@ -17,14 +17,14 @@ class Db {
       }
     )
 
-    this.Torrent = this._sequelize.define('torrent', ...models.torrent)
-    this.Date = this._sequelize.define('date', ...models.date)
+    this.Torrent = this.sequelize.define('torrent', ...models.torrent)
+    this.Date = this.sequelize.define('date', ...models.date)
   }
 
   async init () {
     console.log('initialiazing db...')
     loadingAnimation.start()
-    await this._sequelize.sync()
+    await this.sequelize.sync()
     loadingAnimation.stop()
     console.log('initialiazing db done')
   }

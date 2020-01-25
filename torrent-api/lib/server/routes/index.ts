@@ -12,10 +12,12 @@ router.get('/time', (req, res) => {
 })
 
 router.get('/torrent/:torrentName', (req, res) => {
+  const db = req.app.get('db')
   res.end()
 })
 
 router.get('/torrents/:dateRange?', (req, res) => {
+  const db = req.app.get('db')
   res.end()
 })
 
