@@ -27,7 +27,7 @@ test('/torrents', async () => {
   const res = await fetch(`${SERVER.URL}/torrents`).then(res => res.json())
 })
 
-test('/torrents/:dateRange', async () => {
+test('/torrents?startDate=2019-03-05&endDate=2019-03-18', async () => {
   const res = await fetch(`${SERVER.URL}/torrents?startDate=2019-03-05&endDate=2019-03-18`).then(res => res.json())
 })
 

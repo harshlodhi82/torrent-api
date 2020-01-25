@@ -16,7 +16,7 @@ router.get('/torrent/:torrentName', (req, res) => {
   res.end()
 })
 
-router.get('/torrents/:dateRange?', (req, res) => {
+router.get('/torrents', (req, res) => {
   const db = req.app.get('db')
   res.end()
 })
