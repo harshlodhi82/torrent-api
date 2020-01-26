@@ -11,14 +11,19 @@ router.get('/time', (req, res) => {
   res.send(time)
 })
 
-router.get('/torrent/:torrentName', (req, res) => {
+router.get('/torrent/:torrentName', async (req, res) => {
   const db = req.app.get('db')
-  res.end()
+  const torrentName = req.params.torrentName
+  const torrent = await db.getTorrentByName(torrentName)
+  res.json(torrent)
 })
 
-router.get('/torrents/:dateRange?', (req, res) => {
+router.get('/torrents/:dateRange?', async (req, res) => {
   const db = req.app.get('db')
-  res.end()
+  const startDate = req.query.startDate
+  const endDate = req.query.endDate
+  const peerDates = await db.getMostPeersTorrentsFromDateRange({startDate, endDate})
+  res.send(peerDates)
 })
 
 router.all('*', send404)

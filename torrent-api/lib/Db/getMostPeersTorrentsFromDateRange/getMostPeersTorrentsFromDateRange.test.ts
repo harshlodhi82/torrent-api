@@ -7,6 +7,7 @@ test('getMostPeersTorrentsFromDateRange', async () => {
   await db.init()
   db.getMostPeersTorrentsFromDateRange = getMostPeersTorrentsFromDateRange
   Object.freeze(db)
-  const torrents = await db.getMostPeersTorrentsFromDateRange({startDate: '2019-03-03', endDate: '2019-03-08'})
-  throw Error('TODO')
+  const peerDates = await db.getMostPeersTorrentsFromDateRange({startDate: '2019-03-03', endDate: '2019-03-08'})
+  expect(peerDates[0].date).toEqual('2019-03-03')
+  expect(peerDates[peerDates.length - 1].date).toEqual('2019-03-08')
 })

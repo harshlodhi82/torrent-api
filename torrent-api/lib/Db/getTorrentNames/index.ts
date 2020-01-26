@@ -9,7 +9,8 @@ interface GetTorrentNames {
 
 // eslint-disable-next-line require-await
 const getTorrentNames: GetTorrentNames = async function ({startAt, limit}) {
-  return []
+  const allTorrents = await this.Torrent.findAll({offset: startAt, limit: limit})
+  return allTorrents
 }
 
 export default getTorrentNames

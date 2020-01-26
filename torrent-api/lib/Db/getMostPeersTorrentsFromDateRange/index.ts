@@ -10,7 +10,15 @@ interface GetMostPeersTorrentsFromDateRange {
 
 // eslint-disable-next-line require-await
 const getMostPeersTorrentsFromDateRange: GetMostPeersTorrentsFromDateRange = async function ({startDate, endDate}) {
-  return []
+  const allDates = await this.Date.findAll({
+    where: {
+      [this.sequelize.Sequelize.Op.and]: [
+        this.sequelize.Sequelize.where(this.sequelize.Sequelize.fn('date', this.sequelize.Sequelize.col('date')), '<=', endDate),
+        this.sequelize.Sequelize.where(this.sequelize.Sequelize.fn('date', this.sequelize.Sequelize.col('date')), '>=', startDate)
+      ]
+    }
+  })
+  return allDates
 }
 
 export default getMostPeersTorrentsFromDateRange
