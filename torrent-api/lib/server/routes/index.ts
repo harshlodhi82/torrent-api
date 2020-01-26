@@ -18,11 +18,13 @@ router.get('/torrent/:torrentName', async (req, res) => {
   res.json(torrent)
 })
 
-router.get('/torrents/:dateRange?', async (req, res) => {
+router.get('/torrents', async (req, res) => {
   const db = req.app.get('db')
   const startDate = req.query.startDate
   const endDate = req.query.endDate
-  const peerDates = await db.getMostPeersTorrentsFromDateRange({startDate, endDate})
+  const startAt = req.query.startAt
+  const limit = req.query.limit
+  const peerDates = await db.getMostPeersTorrentsFromDateRange({startDate, endDate, startAt, limit})
   res.send(peerDates)
 })
 

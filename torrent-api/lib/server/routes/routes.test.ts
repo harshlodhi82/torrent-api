@@ -22,24 +22,28 @@ test('/torrent/:torrentName', async () => {
   const torrent = await fetch(`${SERVER.URL}/torrent/${name}`).then(res => res.json())
   expect(torrent.name).toEqual(name)
   expect(torrent).toHaveProperty('name')
-  expect(torrent).toHaveProperty('infohash')
   expect(torrent).toHaveProperty('size')
   expect(torrent).toHaveProperty('files')
-  expect(torrent).toHaveProperty('trackers')
   expect(torrent).toHaveProperty('categories')
   expect(torrent).toHaveProperty('createdAt')
+  expect(torrent).toHaveProperty('dates')
+  expect(Array.isArray(torrent.dates)).toBe(true)
 })
 
 test('/torrents', async () => {
   // // get top torrents last week
-  throw Error(`TODO date must be mocked to '2019-03-18'`)
+  const sevenDayBeforeDate = new Date(Date.now() - (7 * 24 * 60 * 60 * 1000)).toISOString().split('T')[0]
   const res = await fetch(`${SERVER.URL}/torrents`).then(res => res.json())
+  if (res.legth > 0) {
+    expect(res[0].date).toEqual(sevenDayBeforeDate)
+    expect(res.length <= 100).toEqual(true)
+  }
 })
 
-test('/torrents/:dateRange', async () => {
-  const peerDates = await fetch(`${SERVER.URL}/torrents?startDate=2019-03-05&endDate=2019-03-15`).then(res => res.json())
-  expect(peerDates[0].date).toEqual('2019-03-05')
-  expect(peerDates[peerDates.length - 1].date).toEqual('2019-03-15')
+test('/torrents?startDate=2019-03-05&endDate=2019-03-18', async () => {
+  const res = await fetch(`${SERVER.URL}/torrents?startDate=2019-03-05&endDate=2019-03-18&limit=50&startAt=0`).then(res => res.json())
+  expect(res[0].date).toEqual('2019-03-05')
+  expect(res.length).toEqual(50)
 })
 
 afterAll(async () => {

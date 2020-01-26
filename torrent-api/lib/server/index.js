@@ -22,6 +22,7 @@ class Server {
     await this.db.init()
     this.app.use(logger)
     if (this.cache) {
+      log.info('server cache enabled')
       this.app.use(cache('1 hour'))
     }
     this.app.use(routes)
