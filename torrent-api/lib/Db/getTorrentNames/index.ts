@@ -1,4 +1,5 @@
 import log from 'lib/utils/logger'
+import _ from 'lodash'
 
 interface GetTorrentNames {
   (GetTorrentNamesSettings: {
@@ -9,10 +10,9 @@ interface GetTorrentNames {
 
 // eslint-disable-next-line require-await
 const getTorrentNames: GetTorrentNames = async function ({startAt, limit}) {
-  startAt = (startAt) || 0
-  limit = (limit) || 100
-  const allTorrents = await this.Torrent.findAll({offset: startAt, limit: limit})
-  return allTorrents
+  let allTorrentNames = await this.Torrent.findAll({raw: true, attributes: ['name'], offset: startAt, limit: limit})
+  allTorrentNames = _.map(allTorrentNames, 'name')
+  return allTorrentNames
 }
 
 export default getTorrentNames

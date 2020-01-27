@@ -5,30 +5,29 @@ interface GetMostPeersTorrentsFromDateRange {
   (GetTorrentNamesSettings: {
     startDate: string,
     endDate: string,
-    startAt: number,
     limit: number
   }): Promise<Torrent[]>
 }
 
 // eslint-disable-next-line require-await
-const getMostPeersTorrentsFromDateRange: GetMostPeersTorrentsFromDateRange = async function ({startDate, endDate, startAt, limit}) {
-  const todayDate = new Date(Date.now()).toISOString().split('T')[0]
-  const sevenDayBeforeDate = new Date(Date.now() - (7 * 24 * 60 * 60 * 1000)).toISOString().split('T')[0]
-  startDate = (startDate) || sevenDayBeforeDate
-  endDate = (endDate) || todayDate
-  startAt = (startAt) || 0
-  limit = (limit) || 100
-  const allDates = await this.Date.findAll({
-    where: {
-      [this.sequelize.Sequelize.Op.and]: [
-        this.sequelize.Sequelize.where(this.sequelize.Sequelize.fn('date', this.sequelize.Sequelize.col('date')), '<=', endDate),
-        this.sequelize.Sequelize.where(this.sequelize.Sequelize.fn('date', this.sequelize.Sequelize.col('date')), '>=', startDate)
-      ]
-    },
-    offset: startAt,
-    limit: limit
+const getMostPeersTorrentsFromDateRange: GetMostPeersTorrentsFromDateRange = async function ({startDate, endDate, limit}) {
+  let allDates = await this.sequelize.query(`SELECT DISTINCT torrents.infohash FROM dates
+  JOIN torrents on dates.infohash = torrents.infohash
+  where date(dates.date) >= '${startDate}' AND date(dates.date) <= '${endDate}'
+  ORDER BY dates.peers DESC LIMIT ${limit}`)
+  const attributes = ['name', 'size', 'categories', 'createdAt', 'files']
+  let data = await this.Torrent.findAll({
+    where: {[this.sequelize.Sequelize.Op.or]: allDates[0]},
+    attributes,
+    include: [{
+      model: this.Date
+    }],
+    order: [[this.Date, 'peers', 'desc']]
   })
-  return allDates
+  let torrents = data.map((torrent) => {
+    return torrent.get({plain: true})
+  })
+  return torrents
 }
 
 export default getMostPeersTorrentsFromDateRange

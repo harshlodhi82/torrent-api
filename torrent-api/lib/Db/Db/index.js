@@ -26,6 +26,8 @@ class Db {
     loadingAnimation.start()
     await this.sequelize.sync()
     loadingAnimation.stop()
+    this.Date.belongsTo(this.Torrent, {foreignKey: 'infohash'})
+    this.Torrent.hasMany(this.Date, {foreignKey: 'infohash'})
     console.log('initialiazing db done')
   }
 

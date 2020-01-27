@@ -2,19 +2,22 @@ import getTorrentNames from './index'
 import Db from '../Db'
 import {dbPath} from '../fixtures'
 
+let expectedRes = [
+  'Doom Patrol S01E03 Puppet Patrol 1080p DCU WEBRip AAC2 0 H264-NTb[rarbg]',
+  'Sex Drugs &amp; Theatre (2019) Hindi '
+    + 'Zee5 Originals S01 Complete 720P '
+    + 'Web-Dl.',
+  '[Leopard-Raws] Captain Tsubasa (2018) - 50 RAW (TX 1280x720 x264 AAC).mp4',
+  '[Ohys-Raws] Bermuda Triangle Colorful '
+    + 'Pastrale - 08 (AT-X 1280x720 x264 '
+    + 'AAC).mp4'
+]
+
 test('getTorrentNames', async () => {
   const db = Db({dbPath}) as any
   await db.init()
   db.getTorrentNames = getTorrentNames
   Object.freeze(db)
-  const startAt_1 = 0
-  const limit_1 = 20
-  const startAt_2 = 10
-  const limit_2 = 100
-  const startTorrentNames = await db.getTorrentNames({startAt: startAt_1, limit: limit_1})
-  const torrentNames = await db.getTorrentNames({startAt: startAt_2, limit: limit_2})
-  expect(torrentNames.length).toEqual(limit_2)
-  expect(startTorrentNames.length).toEqual(limit_1)
-  expect(torrentNames[0].name).not.toEqual(startTorrentNames[0].name)
-  expect(startTorrentNames[startTorrentNames.length - 1].name).toEqual(torrentNames[(startTorrentNames.length - startAt_2) - 1].name)
+  const torrentNames = await db.getTorrentNames({startAt: 0, limit: 4})
+  expect(torrentNames).toEqual(expectedRes)
 })
