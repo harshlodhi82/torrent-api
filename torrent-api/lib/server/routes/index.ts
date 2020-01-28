@@ -1,4 +1,3 @@
-import log from 'lib/utils/logger'
 import {send404} from '../utils'
 import {Router} from 'express'
 const router = Router()

@@ -1,4 +1,3 @@
-import log from 'lib/utils/logger'
 import {Torrent} from '../interfaces'
 
 interface GetMostPeersTorrentsFromDateRange {
@@ -20,12 +19,15 @@ const getMostPeersTorrentsFromDateRange: GetMostPeersTorrentsFromDateRange = asy
     where: {[this.sequelize.Sequelize.Op.or]: allDates[0]},
     attributes,
     include: [{
-      model: this.Date
+      model: this.Date,
+      attributes: ['peers', 'date', 'seeds', 'leeches']
     }],
     order: [[this.Date, 'peers', 'desc']]
   })
   let torrents = data.map((torrent) => {
-    return torrent.get({plain: true})
+    let trnt = torrent.get({plain: true})
+    trnt.files = JSON.parse(trnt.files)
+    return trnt
   })
   return torrents
 }

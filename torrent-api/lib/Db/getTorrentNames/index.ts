@@ -1,4 +1,3 @@
-import log from 'lib/utils/logger'
 import _ from 'lodash'
 
 interface GetTorrentNames {

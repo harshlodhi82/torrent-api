@@ -1,4 +1,3 @@
-import log from 'lib/utils/logger'
 import getTorrentByName from './index'
 import Db from '../Db'
 import {dbPath} from '../fixtures'
@@ -8,7 +7,7 @@ const expectedRes = {
   size: 3758096384,
   categories: 'Audio:Music',
   createdAt: '2016-08-16',
-  files: '[{"path":"Black Sabbath Discography (2016) @320kbps/Black '
+  files: JSON.parse('[{"path":"Black Sabbath Discography (2016) @320kbps/Black '
     + `Sabbath/Vogard7A's Black Sabbath Picks.m3u8","size":2561},{"path":"Black `
     + 'Sabbath Discography (2016) @320kbps/Black Sabbath/1994 - Cross '
     + 'Purposes/Cross Purposes.jpg","size":27723},{"path":"Black Sabbath '
@@ -655,125 +654,21 @@ const expectedRes = {
     + '@320kbps/Black Sabbath/2007 - Live at Hammersmith Odeon [Live]/11 - Heaven '
     + 'and Hell.mp3","size":34622948},{"path":"Black Sabbath Discography (2016) '
     + '@320kbps/Black Sabbath/2002 - Past Lives [Live]/1-08 - Wicked '
-    + 'World.mp3","size":45486080}]',
+    + 'World.mp3","size":45486080}]'),
   dates: [
-    {
-      dateInfohash: '2019-03-03_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-03',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":96,"leeches":40,"downloaded":1597},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":90,"leeches":31,"downloaded":146},"udp://exodus.desync.com:6969/announce":{"seeds":63,"leeches":22,"downloaded":8150}}',
-      seeds: 96,
-      leeches: 40,
-      peers: 136
-    },
-    {
-      dateInfohash: '2019-03-04_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-04',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":88,"leeches":38,"downloaded":1653},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":78,"leeches":36,"downloaded":200},"udp://exodus.desync.com:6969/announce":{"seeds":53,"leeches":23,"downloaded":8185}}',
-      seeds: 88,
-      leeches: 38,
-      peers: 126
-    },
-    {
-      dateInfohash: '2019-03-05_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-05',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":85,"leeches":34,"downloaded":1699},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":69,"leeches":28,"downloaded":242},"udp://exodus.desync.com:6969/announce":{"seeds":56,"leeches":18,"downloaded":8225}}',
-      seeds: 85,
-      leeches: 34,
-      peers: 119
-    },
-    {
-      dateInfohash: '2019-03-06_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-06',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":87,"leeches":38,"downloaded":1741},"udp://exodus.desync.com:6969/announce":{"seeds":56,"leeches":18,"downloaded":8253},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":87,"leeches":32,"downloaded":288}}',
-      seeds: 87,
-      leeches: 38,
-      peers: 125
-    },
-    {
-      dateInfohash: '2019-03-07_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-07',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":96,"leeches":34,"downloaded":1784},"udp://exodus.desync.com:6969/announce":{"seeds":74,"leeches":20,"downloaded":8279},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":91,"leeches":31,"downloaded":340}}',
-      seeds: 96,
-      leeches: 34,
-      peers: 130
-    },
-    {
-      dateInfohash: '2019-03-08_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-08',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":84,"leeches":34,"downloaded":1817},"udp://exodus.desync.com:6969/announce":{"seeds":65,"leeches":18,"downloaded":8311},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":80,"leeches":26,"downloaded":384}}',
-      seeds: 84,
-      leeches: 34,
-      peers: 118
-    },
-    {
-      dateInfohash: '2019-03-09_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-09',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":105,"leeches":40,"downloaded":1854},"udp://exodus.desync.com:6969/announce":{"seeds":74,"leeches":20,"downloaded":8341},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":92,"leeches":31,"downloaded":425}}',
-      seeds: 105,
-      leeches: 40,
-      peers: 145
-    },
-    {
-      dateInfohash: '2019-03-10_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-10',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":90,"leeches":49,"downloaded":1895},"udp://exodus.desync.com:6969/announce":{"seeds":63,"leeches":25,"downloaded":8371},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":88,"leeches":36,"downloaded":465}}',
-      seeds: 90,
-      leeches: 49,
-      peers: 139
-    },
-    {
-      dateInfohash: '2019-03-11_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-11',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":77,"leeches":36,"downloaded":1946},"udp://exodus.desync.com:6969/announce":{"seeds":54,"leeches":21,"downloaded":8422},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":72,"leeches":36,"downloaded":517}}',
-      seeds: 77,
-      leeches: 36,
-      peers: 113
-    },
-    {
-      dateInfohash: '2019-03-12_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-12',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":83,"leeches":39,"downloaded":1986},"udp://exodus.desync.com:6969/announce":{"seeds":61,"leeches":22,"downloaded":8447},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":78,"leeches":31,"downloaded":572}}',
-      seeds: 83,
-      leeches: 39,
-      peers: 122
-    },
-    {
-      dateInfohash: '2019-03-13_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-13',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":87,"leeches":31,"downloaded":2030},"udp://exodus.desync.com:6969/announce":{"seeds":66,"leeches":20,"downloaded":8492},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":52,"leeches":18,"downloaded":3}}',
-      seeds: 87,
-      leeches: 31,
-      peers: 118
-    },
-    {
-      dateInfohash: '2019-03-14_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-14',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":73,"leeches":28,"downloaded":2073},"udp://exodus.desync.com:6969/announce":{"seeds":56,"leeches":19,"downloaded":8534},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":67,"leeches":27,"downloaded":46}}',
-      seeds: 73,
-      leeches: 28,
-      peers: 101
-    },
-    {
-      dateInfohash: '2019-03-15_1644bc27655dfba1f950546c1bbdac174271d7fd',
-      date: '2019-03-15',
-      infohash: '1644bc27655dfba1f950546c1bbdac174271d7fd',
-      trackers: '{"udp://tracker.leechers-paradise.org:6969/announce":{"seeds":85,"leeches":31,"downloaded":2112},"udp://exodus.desync.com:6969/announce":{"seeds":65,"leeches":27,"downloaded":8559},"udp://tracker.coppersurfer.tk:6969/announce":{"seeds":81,"leeches":32,"downloaded":88}}',
-      seeds: 85,
-      leeches: 31,
-      peers: 116
-    }
+    {peers: 136, date: '2019-03-03', seeds: 96, leeches: 40},
+    {peers: 126, date: '2019-03-04', seeds: 88, leeches: 38},
+    {peers: 119, date: '2019-03-05', seeds: 85, leeches: 34},
+    {peers: 125, date: '2019-03-06', seeds: 87, leeches: 38},
+    {peers: 130, date: '2019-03-07', seeds: 96, leeches: 34},
+    {peers: 118, date: '2019-03-08', seeds: 84, leeches: 34},
+    {peers: 145, date: '2019-03-09', seeds: 105, leeches: 40},
+    {peers: 139, date: '2019-03-10', seeds: 90, leeches: 49},
+    {peers: 113, date: '2019-03-11', seeds: 77, leeches: 36},
+    {peers: 122, date: '2019-03-12', seeds: 83, leeches: 39},
+    {peers: 118, date: '2019-03-13', seeds: 87, leeches: 31},
+    {peers: 101, date: '2019-03-14', seeds: 73, leeches: 28},
+    {peers: 116, date: '2019-03-15', seeds: 85, leeches: 31}
   ]
 }
 

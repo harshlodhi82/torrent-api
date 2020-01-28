@@ -7,10 +7,12 @@ const getTorrentByName = async function (name: string): Promise<Torrent> {
     where: {name},
     attributes,
     include: [{
-      model: this.Date
+      model: this.Date,
+      attributes: ['peers', 'date', 'seeds', 'leeches']
     }]
   })
   torrent = torrent.get({plain: true})
+  torrent.files = JSON.parse(torrent.files)
   return torrent
 }
 
