@@ -20,7 +20,13 @@ const getMostPeersTorrentsFromDateRange: GetMostPeersTorrentsFromDateRange = asy
     attributes,
     include: [{
       model: this.Date,
-      attributes: ['peers', 'date', 'seeds', 'leeches']
+      attributes: ['peers', 'date', 'seeds', 'leeches'],
+      where: {
+        [this.sequelize.Sequelize.Op.and]: [
+          this.sequelize.Sequelize.where(this.sequelize.Sequelize.fn('date', this.sequelize.Sequelize.col('date')), '>=', startDate),
+          this.sequelize.Sequelize.where(this.sequelize.Sequelize.fn('date', this.sequelize.Sequelize.col('date')), '<=', endDate)
+        ]
+      }
     }],
     order: [[this.Date, 'peers', 'desc']]
   })

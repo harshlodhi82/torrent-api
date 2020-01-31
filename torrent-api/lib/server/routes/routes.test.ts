@@ -1960,8 +1960,6 @@ const expectMostPeersTorrentResult = [
       }
     ],
     dates: [
-      {peers: 18479, date: '2019-03-03', seeds: 14585, leeches: 3894},
-      {peers: 17519, date: '2019-03-04', seeds: 14063, leeches: 3456},
       {peers: 15561, date: '2019-03-05', seeds: 13034, leeches: 2527},
       {peers: 15338, date: '2019-03-06', seeds: 12937, leeches: 2401},
       {peers: 14630, date: '2019-03-07', seeds: 12486, leeches: 2144},
@@ -2001,1137 +1999,1138 @@ const expectMostPeersTorrentResult = [
   }
 ]
 
-const expectedSevenDayMostPeerResult = [{
-  name: 'Triple.Frontier.2019.720p.WEBRip.x264-MP4',
-  size: 1138166333,
-  categories: 'Video:HD - Movies',
-  createdAt: '2019-03-12',
-  files: null,
-  dates: [
-    {peers: 11434, date: '2019-03-14', seeds: 5904, leeches: 5530},
-    {peers: 10847, date: '2019-03-15', seeds: 6734, leeches: 4113},
-    {peers: 3794, date: '2019-03-16', seeds: 2875, leeches: 919}
-  ]
-},
-{
-  name: 'The Lego Movie 2 The Second Part (2019) [WEBRip] (1080p) [YTS AM]',
-  size: 1803886264,
-  categories: 'Movies',
-  createdAt: '2019-03-11',
-  files: [
-    {
-      path: 'The Lego Movie 2 The Second Part (2019) '
-        + '[WEBRip] [1080p] [YTS.AM]/www.YTS.AM.jpg',
-      size: 58132
-    },
-    {
-      path: 'The Lego Movie 2 The Second Part (2019) [WEBRip] [1080p] '
-        + '[YTS.AM]/The.Lego.Movie.2.The.Second.Part.2019.1080p.WEBRip.x264-[YTS.AM].mp4',
-      size: 1809049895
-    }
-  ],
-  dates: [
-    {peers: 9173, date: '2019-03-12', seeds: 5893, leeches: 3280},
-    {peers: 6462, date: '2019-03-14', seeds: 5055, leeches: 1407},
-    {peers: 6296, date: '2019-03-16', seeds: 4860, leeches: 1436},
-    {peers: 6276, date: '2019-03-13', seeds: 5007, leeches: 1269},
-    {peers: 5862, date: '2019-03-15', seeds: 4667, leeches: 1195}
-  ]
-},
-{
-  name: 'Triple.Frontier.2019.1080p.WEBRip.x264-MP4',
-  size: 2168958484,
-  categories: 'Video:HD - Movies',
-  createdAt: '2019-03-12',
-  files: null,
-  dates: [
-    {peers: 8806, date: '2019-03-14', seeds: 4152, leeches: 4654},
-    {peers: 8215, date: '2019-03-15', seeds: 4744, leeches: 3471},
-    {peers: 2366, date: '2019-03-16', seeds: 1799, leeches: 567}
-  ]
-},
-{
-  name: 'Triple Frontier 2019 1080p NF WEB-DL DDP5 1 x264-NTG',
-  size: 4574140170,
-  categories: 'Movies',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7988, date: '2019-03-14', seeds: 5365, leeches: 2623},
-    {peers: 5428, date: '2019-03-15', seeds: 4224, leeches: 1204},
-    {peers: 4490, date: '2019-03-16', seeds: 3597, leeches: 893}
-  ]
-},
-{
-  name: 'LUXONIX Purity v1.2.5-d33p57a7u5',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7969, date: '2019-03-15', seeds: 7643, leeches: 326},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Movavi Video Suite 15.4 + Crack + Portable - Crackingpatching',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7966, date: '2019-03-15', seeds: 7648, leeches: 318},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Media Encoder CC 2018 v12.1.2.69 (x64) + Patch',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7965, date: '2019-03-15', seeds: 7639, leeches: 326},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Red Giant Complete Suite Feb 2018 For Windows - [CrackzSoft]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7955, date: '2019-03-15', seeds: 7582, leeches: 373},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'ADOBE PHOTOSHOP CS5.1 EXTENDED EDITION [thethingy]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7949, date: '2019-03-15', seeds: 7631, leeches: 318},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'WinRAR 5.70 Final (x86-x64) + Medicine[BabuPC]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7949, date: '2019-03-15', seeds: 7610, leeches: 339},
-    {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
-  ]
-},
-{
-  name: 'uTorrent Pro 3.5.5 build 44994 Full',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7948, date: '2019-03-15', seeds: 7631, leeches: 317},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'IBM SPSS Statistics SPSS 24 + Serial -- Win_x64',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7947, date: '2019-03-15', seeds: 7620, leeches: 327},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Master Collection CS6 WORKING [ENG]- P2P',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7944, date: '2019-03-15', seeds: 7630, leeches: 314},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'AUTODESK.INVENTOR.PRO.V2017.WIN64-ISO',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7938, date: '2019-03-15', seeds: 7621, leeches: 317},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: '[PC] Guitar Pro 6.0.9 + Newest Soundtracks',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7928, date: '2019-03-15', seeds: 7617, leeches: 311},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Windows 10 Pro X32 & X64 product key and windows usb instal',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7925, date: '2019-03-15', seeds: 7632, leeches: 293},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft Project 2016 x64 Pro VL Multi-17 Apr 2016 {Gen2}',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7921, date: '2019-03-15', seeds: 7599, leeches: 322},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Driver Genius Pro 16.0.0.249 FINAL + Crack [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7917, date: '2019-03-15', seeds: 7587, leeches: 330},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Autodesk AutoCAD 2016 SP1 (x64+X86) Incl.Keygen - {Ranger.03}',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7908, date: '2019-03-15', seeds: 7586, leeches: 322},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Photoshop Portable CS6 13.1 (x32-x64) Multi',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7906, date: '2019-03-15', seeds: 7586, leeches: 320},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'iSeePassword Windows Password Recovery Pro v2.6.2.2 + Serial',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7906, date: '2019-03-15', seeds: 7557, leeches: 349},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'MICROSOFT OFFICE 2010 EXCEL X64 [thethingy]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7906, date: '2019-03-15', seeds: 7584, leeches: 322},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Photoshop CC 2014 (64 bit) (Crack) [ChingLiu]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7905, date: '2019-03-15', seeds: 7555, leeches: 350},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft Office Pro Plus 2019 16.0.10325.20118',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7902, date: '2019-03-15', seeds: 7615, leeches: 287},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft.Office.2019.Professional.Plus.ACTiVATiON-iND',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7902, date: '2019-03-15', seeds: 7549, leeches: 353},
-    {peers: 3, date: '2019-03-16', seeds: 3, leeches: 0}
-  ]
-},
-{
-  name: 'SolidWorks 2019 SP1 x64 --- With SN and activator',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7901, date: '2019-03-15', seeds: 7535, leeches: 366},
-    {peers: 3, date: '2019-03-16', seeds: 3, leeches: 0}
-  ]
-},
-{
-  name: 'Wondershare Filmora 8.7.4.0 + Crack [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7901, date: '2019-03-15', seeds: 7608, leeches: 293},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'AVG Anti-Virus Internet Security 2016 + Key',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7901, date: '2019-03-15', seeds: 7564, leeches: 337},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Ableton live Suite v9.5 WiN x86 x64-d33p57a7u5',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7899, date: '2019-03-15', seeds: 7569, leeches: 330},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft Toolkit 2.6.4 Official Torrent',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7899, date: '2019-03-15', seeds: 7559, leeches: 340},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Acrobat Reader DC 2018.11.20058 Pre-Cracked [CracksMind]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7897, date: '2019-03-15', seeds: 7561, leeches: 336},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Office.2016.Permanent.Activator.Ultimate.1.2',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7896, date: '2019-03-15', seeds: 7574, leeches: 322},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'WinZip 15 Pro (with Working Key)',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7894, date: '2019-03-15', seeds: 7572, leeches: 322},
-    {peers: 3, date: '2019-03-16', seeds: 3, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Illustrator CC 2019 v23.0.1 PreCracked',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7894, date: '2019-03-15', seeds: 7568, leeches: 326},
-    {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
-  ]
-},
-{
-  name: 'Vray for Sketchup 2014 + Patch',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7894, date: '2019-03-15', seeds: 7617, leeches: 277},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'TechSmith Camtasia Studio 9.0.4 Build 1948 + Serials [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7893, date: '2019-03-15', seeds: 7520, leeches: 373},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Photoshop CC 2017 18.0 x64',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7890, date: '2019-03-15', seeds: 7569, leeches: 321},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'CCleaner Professional Plus v5.25.0.5902 x86-x64 Setup + CRACK',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7888, date: '2019-03-15', seeds: 7550, leeches: 338},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'IDM 6.30 Build 9 incl Patch [32bit + 64bit] [Crackingpatching]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7887, date: '2019-03-15', seeds: 7559, leeches: 328},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'VLC Media Player 3.0.0 20171128 (x86-x64) + {Latest}',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7883, date: '2019-03-15', seeds: 7561, leeches: 322},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft Office 2013 RTM Pt-Br (x64) - MSDN',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7883, date: '2019-03-15', seeds: 7566, leeches: 317},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Lumion 8.0 Pro + Serial Number Reading Tool - [CrackzSoft]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7882, date: '2019-03-15', seeds: 7547, leeches: 335},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'KMSAuto Lite Portable 1.5.0 By Ratiborus[BabuPC]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7882, date: '2019-03-15', seeds: 7558, leeches: 324},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'AOMEI Partition Assistant v6.0 FINAL + Serials [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7880, date: '2019-03-15', seeds: 7567, leeches: 313},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Pro Tools 10.3.4 HD Win + Crack',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7880, date: '2019-03-15', seeds: 7541, leeches: 339},
-    {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft Office Professional Plus + Activation',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7879, date: '2019-03-15', seeds: 7554, leeches: 325},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'The Lego Movie 2 The Second Part (2019) [WEBRip] [720p] English',
-  size: 940824330,
-  categories: 'Video:HD - Movies',
-  createdAt: '2019-03-10',
-  files: [
-    {
-      path: 'The Lego Movie 2 The Second Part (2019) '
-        + '[WEBRip] [720p] [YTS.AM]/www.YTS.AM.jpg',
-      size: 58132
-    },
-    {
-      path: 'The Lego Movie 2 The Second Part (2019) [WEBRip] [720p] '
-        + '[YTS.AM]/The.Lego.Movie.2.The.Second.Part.2019.720p.WEBRip.x264-[YTS.AM].mp4',
-      size: 940762620
-    }
-  ],
-  dates: [
-    {peers: 7879, date: '2019-03-12', seeds: 5125, leeches: 2754},
-    {peers: 5735, date: '2019-03-14', seeds: 4428, leeches: 1307},
-    {peers: 5379, date: '2019-03-16', seeds: 4157, leeches: 1222},
-    {peers: 5188, date: '2019-03-15', seeds: 4168, leeches: 1020},
-    {peers: 4873, date: '2019-03-13', seeds: 3435, leeches: 1438}
-  ]
-},
-{
-  name: 'GIMP v2.8.22 - SeuPirate',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7878, date: '2019-03-15', seeds: 7541, leeches: 337},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Premiere Pro CS6 6.0.0 LS7 Multilanguage [ChingLiu]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7876, date: '2019-03-15', seeds: 7523, leeches: 353},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Red Giant Magic Bullet Suite 13.0.4 + Serials - [SH]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7873, date: '2019-03-15', seeds: 7565, leeches: 308},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Photoshop CS6 13.0.1 Final Multilanguage (cracked dll)',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7872, date: '2019-03-15', seeds: 7548, leeches: 324},
-    {peers: 2, date: '2019-03-16', seeds: 1, leeches: 1}
-  ]
-},
-{
-  name: 'Ccleaner Professional v5.12.5431 FINAL + Serials [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7871, date: '2019-03-15', seeds: 7559, leeches: 312},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'GetData Recover My Files 5.2.1.1964 Professional Edition.zip',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7870, date: '2019-03-15', seeds: 7566, leeches: 304},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft SQL Server 2014 Enterprise Edition with SP1 x64-[First',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7868, date: '2019-03-15', seeds: 7538, leeches: 330},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'BlueStacks 4 (v4.50.0.1043) + Premium + Root {B4tman}',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7867, date: '2019-03-15', seeds: 7520, leeches: 347},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Nero Burning ROM 2014 v15.0.05300 ML Incl. Crack + Key',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7867, date: '2019-03-15', seeds: 7519, leeches: 348},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Xilisoft HD Video Converter 7.8.19 FULL + Serials [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7867, date: '2019-03-15', seeds: 7516, leeches: 351},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Acrobat Pro DC 2019.010.20098 Multilingual + Medicine[Babu',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7866, date: '2019-03-15', seeds: 7517, leeches: 349},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'DRIVER PACK 17.7.24 (2017)',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7866, date: '2019-03-15', seeds: 7543, leeches: 323},
-    {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft Visual Studio 2015.1 Enterprise 14.0.24720 (x86x64)',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7866, date: '2019-03-15', seeds: 7548, leeches: 318},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Bandicam 4.2.0.1439 + Keygen [CracksMind]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7866, date: '2019-03-15', seeds: 7516, leeches: 350},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Photoshop CC 2015 FULL Portable [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7866, date: '2019-03-15', seeds: 7538, leeches: 328},
-    {peers: 2, date: '2019-03-16', seeds: 1, leeches: 1}
-  ]
-},
-{
-  name: 'EaseUS Data Recovery Wizard 11.9.0 + Keygen - [CrackzSoft]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7865, date: '2019-03-15', seeds: 7520, leeches: 345},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Foxit Phantom PDF Business 9.0.0.29935 + Crack - 2017 - ArmaanP',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7865, date: '2019-03-15', seeds: 7526, leeches: 339},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'DriverPack Solution 17.7.101-18074 Full Final - DailyApp',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7862, date: '2019-03-15', seeds: 7575, leeches: 287},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Hide My IP 6.0.370 Multilingual Premium VPN + Key - AppzDam',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7860, date: '2019-03-15', seeds: 7563, leeches: 297},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Corel Draw Graphics Suite X8',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7860, date: '2019-03-15', seeds: 7500, leeches: 360},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Autodesk AutoCAD 2010 Multilang-32+64bit-Retail',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7859, date: '2019-03-15', seeds: 7547, leeches: 312},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'MICROSOFT OFFICE 2010 EXCEL X86 [thethingy]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7859, date: '2019-03-15', seeds: 7523, leeches: 336},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Premiere Pro CC 2015 v9.0 + Crack',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7859, date: '2019-03-15', seeds: 7567, leeches: 292},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'IDM 6.30 Build 7 incl Patch [32bit+64bit] Crackingpatching',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7858, date: '2019-03-15', seeds: 7528, leeches: 330},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'microsoft Office Enterprise 2007 + Key - THADOGG',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7858, date: '2019-03-15', seeds: 7558, leeches: 300},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Ashampoo Burning Studio 2015 v1.15.0.16 Final + Serial [ATOM]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7855, date: '2019-03-15', seeds: 7522, leeches: 333},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'DriverPack Solution 17.7.129-18120 Latest - DailyAppp',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7855, date: '2019-03-15', seeds: 7565, leeches: 290},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'ABBYY FineReader v11.0.102.583 OCR CE + Crack [CC RG]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7854, date: '2019-03-15', seeds: 7556, leeches: 298},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Photoshop CC 2015 (20150529.r.88) (32+64Bit) + Crack',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7853, date: '2019-03-15', seeds: 7524, leeches: 329},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'IBM SPSS Statistics 20 - x86',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7851, date: '2019-03-15', seeds: 7534, leeches: 317},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'BsPlayer Pro 2.64 key+keygen[CORE] by Senzati',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7851, date: '2019-03-15', seeds: 7508, leeches: 343},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Sony Vegas Pro 14.0 Build 244 + patch - Crackingpatching',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7851, date: '2019-03-15', seeds: 7559, leeches: 292},
-    {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
-  ]
-},
-{
-  name: 'Nero 2018 Platinum 19.0.07300 Full + Pre-Cracked - [CrackzSoft]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7850, date: '2019-03-15', seeds: 7513, leeches: 337},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Creative Cloud 2018 Collection March 2018 + Crack',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7850, date: '2019-03-15', seeds: 7528, leeches: 322},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Animate Cc 2018 v18.0.2 + Crack [CracksMind]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7850, date: '2019-03-15', seeds: 7529, leeches: 321},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Avast! Pro Antivirus,Internet Security & Premier 2017 + Keys',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7850, date: '2019-03-15', seeds: 7544, leeches: 306},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Adobe Acrobat XI Pro 11.0.20 FINAL + Crack [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7850, date: '2019-03-15', seeds: 7519, leeches: 331},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft Office 2016 Pro Plus VL x64 MULTi-22 FEB 2019 {Gen2}',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7849, date: '2019-03-15', seeds: 7550, leeches: 299},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'CyberLink PowerDirector Ultimate 17.0.2126.0 Pre-Cracked',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7849, date: '2019-03-15', seeds: 7523, leeches: 326},
-    {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
-  ]
-},
-{
-  name: 'Blackmagic Design DaVinci Resolve Studio 15.0.0.086 + Crack',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7848, date: '2019-03-15', seeds: 7514, leeches: 334},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'AUTODATA 3.45 + Crack FULL [TechTools]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7847, date: '2019-03-15', seeds: 7514, leeches: 333},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'FL Studio Producer Edition 20.1.1 Build 795 + Medicine[BabuPC]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7847, date: '2019-03-15', seeds: 7524, leeches: 323},
-    {peers: 5, date: '2019-03-16', seeds: 5, leeches: 0}
-  ]
-},
-{
-  name: 'IDM 6.32 Build 5 incl Patch [32bit + 64bit] [CrackingPatching]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7846, date: '2019-03-15', seeds: 7511, leeches: 335},
-    {peers: 1, date: '2019-03-16', seeds: 0, leeches: 1}
-  ]
-},
-{
-  name: 'Adobe Premiere Pro CC 2018 v12.0.0.224 incl + Patch',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7846, date: '2019-03-15', seeds: 7550, leeches: 296},
-    {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
-  ]
-},
-{
-  name: 'EaseUS Data Recovery Wizard Professional 7.5+Crack',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7846, date: '2019-03-15', seeds: 7545, leeches: 301},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Smadav Pro 2017 v11.3.5 Final + Serial - [SH]',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7846, date: '2019-03-15', seeds: 7543, leeches: 303},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Sony Vegas Pro 13.0 Build 453 (x64) + Patch DI',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7846, date: '2019-03-15', seeds: 7517, leeches: 329},
-    {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
-  ]
-},
-{
-  name: 'Microsoft Office Professional Plus (x64) 2013 Incl Activator -',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7846, date: '2019-03-15', seeds: 7529, leeches: 317},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'AVS Video Editor 7.1.4.264 + Crack {B4tman}',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7843, date: '2019-03-15', seeds: 7524, leeches: 319},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Internet Download Manager IDM 6.28 build 10 32bit + 64bit Patch',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7842, date: '2019-03-15', seeds: 7526, leeches: 316},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Kaspersky Internet Security 2019 v19.0.0.1088 + Crack',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7842, date: '2019-03-15', seeds: 7525, leeches: 317},
-    {peers: 1, date: '2019-03-16', seeds: 0, leeches: 1}
-  ]
-},
-{
-  name: 'Microsoft Office Professional Plus 2013 x86 PT-BR + Ativador',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7841, date: '2019-03-15', seeds: 7518, leeches: 323},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-},
-{
-  name: 'Image-Line Fruity Loops Studio Edition 10.0.0 @vAin4us',
-  size: 8420065,
-  categories: 'Applications:Windows',
-  createdAt: '2019-03-13',
-  files: null,
-  dates: [
-    {peers: 7841, date: '2019-03-15', seeds: 7486, leeches: 355},
-    {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
-  ]
-}
+const expectedSevenDayMostPeerResult = [
+  {
+    name: 'Triple.Frontier.2019.720p.WEBRip.x264-MP4',
+    size: 1138166333,
+    categories: 'Video:HD - Movies',
+    createdAt: '2019-03-12',
+    files: null,
+    dates: [
+      {peers: 11434, date: '2019-03-14', seeds: 5904, leeches: 5530},
+      {peers: 10847, date: '2019-03-15', seeds: 6734, leeches: 4113},
+      {peers: 3794, date: '2019-03-16', seeds: 2875, leeches: 919}
+    ]
+  },
+  {
+    name: 'The Lego Movie 2 The Second Part (2019) [WEBRip] (1080p) [YTS AM]',
+    size: 1803886264,
+    categories: 'Movies',
+    createdAt: '2019-03-11',
+    files: [
+      {
+        path: 'The Lego Movie 2 The Second Part (2019) '
+          + '[WEBRip] [1080p] [YTS.AM]/www.YTS.AM.jpg',
+        size: 58132
+      },
+      {
+        path: 'The Lego Movie 2 The Second Part (2019) [WEBRip] [1080p] '
+          + '[YTS.AM]/The.Lego.Movie.2.The.Second.Part.2019.1080p.WEBRip.x264-[YTS.AM].mp4',
+        size: 1809049895
+      }
+    ],
+    dates: [
+      {peers: 9173, date: '2019-03-12', seeds: 5893, leeches: 3280},
+      {peers: 6462, date: '2019-03-14', seeds: 5055, leeches: 1407},
+      {peers: 6296, date: '2019-03-16', seeds: 4860, leeches: 1436},
+      {peers: 6276, date: '2019-03-13', seeds: 5007, leeches: 1269},
+      {peers: 5862, date: '2019-03-15', seeds: 4667, leeches: 1195}
+    ]
+  },
+  {
+    name: 'Triple.Frontier.2019.1080p.WEBRip.x264-MP4',
+    size: 2168958484,
+    categories: 'Video:HD - Movies',
+    createdAt: '2019-03-12',
+    files: null,
+    dates: [
+      {peers: 8806, date: '2019-03-14', seeds: 4152, leeches: 4654},
+      {peers: 8215, date: '2019-03-15', seeds: 4744, leeches: 3471},
+      {peers: 2366, date: '2019-03-16', seeds: 1799, leeches: 567}
+    ]
+  },
+  {
+    name: 'Triple Frontier 2019 1080p NF WEB-DL DDP5 1 x264-NTG',
+    size: 4574140170,
+    categories: 'Movies',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7988, date: '2019-03-14', seeds: 5365, leeches: 2623},
+      {peers: 5428, date: '2019-03-15', seeds: 4224, leeches: 1204},
+      {peers: 4490, date: '2019-03-16', seeds: 3597, leeches: 893}
+    ]
+  },
+  {
+    name: 'LUXONIX Purity v1.2.5-d33p57a7u5',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7969, date: '2019-03-15', seeds: 7643, leeches: 326},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Movavi Video Suite 15.4 + Crack + Portable - Crackingpatching',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7966, date: '2019-03-15', seeds: 7648, leeches: 318},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Media Encoder CC 2018 v12.1.2.69 (x64) + Patch',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7965, date: '2019-03-15', seeds: 7639, leeches: 326},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Red Giant Complete Suite Feb 2018 For Windows - [CrackzSoft]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7955, date: '2019-03-15', seeds: 7582, leeches: 373},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'ADOBE PHOTOSHOP CS5.1 EXTENDED EDITION [thethingy]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7949, date: '2019-03-15', seeds: 7631, leeches: 318},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'WinRAR 5.70 Final (x86-x64) + Medicine[BabuPC]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7949, date: '2019-03-15', seeds: 7610, leeches: 339},
+      {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
+    ]
+  },
+  {
+    name: 'uTorrent Pro 3.5.5 build 44994 Full',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7948, date: '2019-03-15', seeds: 7631, leeches: 317},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'IBM SPSS Statistics SPSS 24 + Serial -- Win_x64',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7947, date: '2019-03-15', seeds: 7620, leeches: 327},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Master Collection CS6 WORKING [ENG]- P2P',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7944, date: '2019-03-15', seeds: 7630, leeches: 314},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'AUTODESK.INVENTOR.PRO.V2017.WIN64-ISO',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7938, date: '2019-03-15', seeds: 7621, leeches: 317},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: '[PC] Guitar Pro 6.0.9 + Newest Soundtracks',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7928, date: '2019-03-15', seeds: 7617, leeches: 311},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Windows 10 Pro X32 & X64 product key and windows usb instal',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7925, date: '2019-03-15', seeds: 7632, leeches: 293},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft Project 2016 x64 Pro VL Multi-17 Apr 2016 {Gen2}',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7921, date: '2019-03-15', seeds: 7599, leeches: 322},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Driver Genius Pro 16.0.0.249 FINAL + Crack [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7917, date: '2019-03-15', seeds: 7587, leeches: 330},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Autodesk AutoCAD 2016 SP1 (x64+X86) Incl.Keygen - {Ranger.03}',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7908, date: '2019-03-15', seeds: 7586, leeches: 322},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Photoshop Portable CS6 13.1 (x32-x64) Multi',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7906, date: '2019-03-15', seeds: 7586, leeches: 320},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'iSeePassword Windows Password Recovery Pro v2.6.2.2 + Serial',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7906, date: '2019-03-15', seeds: 7557, leeches: 349},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'MICROSOFT OFFICE 2010 EXCEL X64 [thethingy]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7906, date: '2019-03-15', seeds: 7584, leeches: 322},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Photoshop CC 2014 (64 bit) (Crack) [ChingLiu]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7905, date: '2019-03-15', seeds: 7555, leeches: 350},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft Office Pro Plus 2019 16.0.10325.20118',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7902, date: '2019-03-15', seeds: 7615, leeches: 287},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft.Office.2019.Professional.Plus.ACTiVATiON-iND',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7902, date: '2019-03-15', seeds: 7549, leeches: 353},
+      {peers: 3, date: '2019-03-16', seeds: 3, leeches: 0}
+    ]
+  },
+  {
+    name: 'SolidWorks 2019 SP1 x64 --- With SN and activator',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7901, date: '2019-03-15', seeds: 7535, leeches: 366},
+      {peers: 3, date: '2019-03-16', seeds: 3, leeches: 0}
+    ]
+  },
+  {
+    name: 'Wondershare Filmora 8.7.4.0 + Crack [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7901, date: '2019-03-15', seeds: 7608, leeches: 293},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'AVG Anti-Virus Internet Security 2016 + Key',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7901, date: '2019-03-15', seeds: 7564, leeches: 337},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Ableton live Suite v9.5 WiN x86 x64-d33p57a7u5',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7899, date: '2019-03-15', seeds: 7569, leeches: 330},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft Toolkit 2.6.4 Official Torrent',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7899, date: '2019-03-15', seeds: 7559, leeches: 340},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Acrobat Reader DC 2018.11.20058 Pre-Cracked [CracksMind]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7897, date: '2019-03-15', seeds: 7561, leeches: 336},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Office.2016.Permanent.Activator.Ultimate.1.2',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7896, date: '2019-03-15', seeds: 7574, leeches: 322},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'WinZip 15 Pro (with Working Key)',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7894, date: '2019-03-15', seeds: 7572, leeches: 322},
+      {peers: 3, date: '2019-03-16', seeds: 3, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Illustrator CC 2019 v23.0.1 PreCracked',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7894, date: '2019-03-15', seeds: 7568, leeches: 326},
+      {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
+    ]
+  },
+  {
+    name: 'Vray for Sketchup 2014 + Patch',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7894, date: '2019-03-15', seeds: 7617, leeches: 277},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'TechSmith Camtasia Studio 9.0.4 Build 1948 + Serials [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7893, date: '2019-03-15', seeds: 7520, leeches: 373},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Photoshop CC 2017 18.0 x64',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7890, date: '2019-03-15', seeds: 7569, leeches: 321},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'CCleaner Professional Plus v5.25.0.5902 x86-x64 Setup + CRACK',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7888, date: '2019-03-15', seeds: 7550, leeches: 338},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'IDM 6.30 Build 9 incl Patch [32bit + 64bit] [Crackingpatching]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7887, date: '2019-03-15', seeds: 7559, leeches: 328},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'VLC Media Player 3.0.0 20171128 (x86-x64) + {Latest}',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7883, date: '2019-03-15', seeds: 7561, leeches: 322},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft Office 2013 RTM Pt-Br (x64) - MSDN',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7883, date: '2019-03-15', seeds: 7566, leeches: 317},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Lumion 8.0 Pro + Serial Number Reading Tool - [CrackzSoft]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7882, date: '2019-03-15', seeds: 7547, leeches: 335},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'KMSAuto Lite Portable 1.5.0 By Ratiborus[BabuPC]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7882, date: '2019-03-15', seeds: 7558, leeches: 324},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'AOMEI Partition Assistant v6.0 FINAL + Serials [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7880, date: '2019-03-15', seeds: 7567, leeches: 313},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Pro Tools 10.3.4 HD Win + Crack',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7880, date: '2019-03-15', seeds: 7541, leeches: 339},
+      {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft Office Professional Plus + Activation',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7879, date: '2019-03-15', seeds: 7554, leeches: 325},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'The Lego Movie 2 The Second Part (2019) [WEBRip] [720p] English',
+    size: 940824330,
+    categories: 'Video:HD - Movies',
+    createdAt: '2019-03-10',
+    files: [
+      {
+        path: 'The Lego Movie 2 The Second Part (2019) '
+          + '[WEBRip] [720p] [YTS.AM]/www.YTS.AM.jpg',
+        size: 58132
+      },
+      {
+        path: 'The Lego Movie 2 The Second Part (2019) [WEBRip] [720p] '
+          + '[YTS.AM]/The.Lego.Movie.2.The.Second.Part.2019.720p.WEBRip.x264-[YTS.AM].mp4',
+        size: 940762620
+      }
+    ],
+    dates: [
+      {peers: 7879, date: '2019-03-12', seeds: 5125, leeches: 2754},
+      {peers: 5735, date: '2019-03-14', seeds: 4428, leeches: 1307},
+      {peers: 5379, date: '2019-03-16', seeds: 4157, leeches: 1222},
+      {peers: 5188, date: '2019-03-15', seeds: 4168, leeches: 1020},
+      {peers: 4873, date: '2019-03-13', seeds: 3435, leeches: 1438}
+    ]
+  },
+  {
+    name: 'GIMP v2.8.22 - SeuPirate',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7878, date: '2019-03-15', seeds: 7541, leeches: 337},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Premiere Pro CS6 6.0.0 LS7 Multilanguage [ChingLiu]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7876, date: '2019-03-15', seeds: 7523, leeches: 353},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Red Giant Magic Bullet Suite 13.0.4 + Serials - [SH]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7873, date: '2019-03-15', seeds: 7565, leeches: 308},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Photoshop CS6 13.0.1 Final Multilanguage (cracked dll)',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7872, date: '2019-03-15', seeds: 7548, leeches: 324},
+      {peers: 2, date: '2019-03-16', seeds: 1, leeches: 1}
+    ]
+  },
+  {
+    name: 'Ccleaner Professional v5.12.5431 FINAL + Serials [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7871, date: '2019-03-15', seeds: 7559, leeches: 312},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'GetData Recover My Files 5.2.1.1964 Professional Edition.zip',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7870, date: '2019-03-15', seeds: 7566, leeches: 304},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft SQL Server 2014 Enterprise Edition with SP1 x64-[First',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7868, date: '2019-03-15', seeds: 7538, leeches: 330},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'BlueStacks 4 (v4.50.0.1043) + Premium + Root {B4tman}',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7867, date: '2019-03-15', seeds: 7520, leeches: 347},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Nero Burning ROM 2014 v15.0.05300 ML Incl. Crack + Key',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7867, date: '2019-03-15', seeds: 7519, leeches: 348},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Xilisoft HD Video Converter 7.8.19 FULL + Serials [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7867, date: '2019-03-15', seeds: 7516, leeches: 351},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Acrobat Pro DC 2019.010.20098 Multilingual + Medicine[Babu',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7866, date: '2019-03-15', seeds: 7517, leeches: 349},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'DRIVER PACK 17.7.24 (2017)',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7866, date: '2019-03-15', seeds: 7543, leeches: 323},
+      {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft Visual Studio 2015.1 Enterprise 14.0.24720 (x86x64)',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7866, date: '2019-03-15', seeds: 7548, leeches: 318},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Bandicam 4.2.0.1439 + Keygen [CracksMind]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7866, date: '2019-03-15', seeds: 7516, leeches: 350},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Photoshop CC 2015 FULL Portable [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7866, date: '2019-03-15', seeds: 7538, leeches: 328},
+      {peers: 2, date: '2019-03-16', seeds: 1, leeches: 1}
+    ]
+  },
+  {
+    name: 'EaseUS Data Recovery Wizard 11.9.0 + Keygen - [CrackzSoft]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7865, date: '2019-03-15', seeds: 7520, leeches: 345},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Foxit Phantom PDF Business 9.0.0.29935 + Crack - 2017 - ArmaanP',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7865, date: '2019-03-15', seeds: 7526, leeches: 339},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'DriverPack Solution 17.7.101-18074 Full Final - DailyApp',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7862, date: '2019-03-15', seeds: 7575, leeches: 287},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Hide My IP 6.0.370 Multilingual Premium VPN + Key - AppzDam',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7860, date: '2019-03-15', seeds: 7563, leeches: 297},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Corel Draw Graphics Suite X8',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7860, date: '2019-03-15', seeds: 7500, leeches: 360},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Autodesk AutoCAD 2010 Multilang-32+64bit-Retail',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7859, date: '2019-03-15', seeds: 7547, leeches: 312},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'MICROSOFT OFFICE 2010 EXCEL X86 [thethingy]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7859, date: '2019-03-15', seeds: 7523, leeches: 336},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Premiere Pro CC 2015 v9.0 + Crack',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7859, date: '2019-03-15', seeds: 7567, leeches: 292},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'IDM 6.30 Build 7 incl Patch [32bit+64bit] Crackingpatching',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7858, date: '2019-03-15', seeds: 7528, leeches: 330},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'microsoft Office Enterprise 2007 + Key - THADOGG',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7858, date: '2019-03-15', seeds: 7558, leeches: 300},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Ashampoo Burning Studio 2015 v1.15.0.16 Final + Serial [ATOM]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7855, date: '2019-03-15', seeds: 7522, leeches: 333},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'DriverPack Solution 17.7.129-18120 Latest - DailyAppp',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7855, date: '2019-03-15', seeds: 7565, leeches: 290},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'ABBYY FineReader v11.0.102.583 OCR CE + Crack [CC RG]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7854, date: '2019-03-15', seeds: 7556, leeches: 298},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Photoshop CC 2015 (20150529.r.88) (32+64Bit) + Crack',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7853, date: '2019-03-15', seeds: 7524, leeches: 329},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'IBM SPSS Statistics 20 - x86',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7851, date: '2019-03-15', seeds: 7534, leeches: 317},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'BsPlayer Pro 2.64 key+keygen[CORE] by Senzati',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7851, date: '2019-03-15', seeds: 7508, leeches: 343},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Sony Vegas Pro 14.0 Build 244 + patch - Crackingpatching',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7851, date: '2019-03-15', seeds: 7559, leeches: 292},
+      {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
+    ]
+  },
+  {
+    name: 'Nero 2018 Platinum 19.0.07300 Full + Pre-Cracked - [CrackzSoft]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7850, date: '2019-03-15', seeds: 7513, leeches: 337},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Creative Cloud 2018 Collection March 2018 + Crack',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7850, date: '2019-03-15', seeds: 7528, leeches: 322},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Animate Cc 2018 v18.0.2 + Crack [CracksMind]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7850, date: '2019-03-15', seeds: 7529, leeches: 321},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Avast! Pro Antivirus,Internet Security & Premier 2017 + Keys',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7850, date: '2019-03-15', seeds: 7544, leeches: 306},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Adobe Acrobat XI Pro 11.0.20 FINAL + Crack [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7850, date: '2019-03-15', seeds: 7519, leeches: 331},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft Office 2016 Pro Plus VL x64 MULTi-22 FEB 2019 {Gen2}',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7849, date: '2019-03-15', seeds: 7550, leeches: 299},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'CyberLink PowerDirector Ultimate 17.0.2126.0 Pre-Cracked',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7849, date: '2019-03-15', seeds: 7523, leeches: 326},
+      {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
+    ]
+  },
+  {
+    name: 'Blackmagic Design DaVinci Resolve Studio 15.0.0.086 + Crack',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7848, date: '2019-03-15', seeds: 7514, leeches: 334},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'AUTODATA 3.45 + Crack FULL [TechTools]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7847, date: '2019-03-15', seeds: 7514, leeches: 333},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'FL Studio Producer Edition 20.1.1 Build 795 + Medicine[BabuPC]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7847, date: '2019-03-15', seeds: 7524, leeches: 323},
+      {peers: 5, date: '2019-03-16', seeds: 5, leeches: 0}
+    ]
+  },
+  {
+    name: 'IDM 6.32 Build 5 incl Patch [32bit + 64bit] [CrackingPatching]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7846, date: '2019-03-15', seeds: 7511, leeches: 335},
+      {peers: 1, date: '2019-03-16', seeds: 0, leeches: 1}
+    ]
+  },
+  {
+    name: 'Adobe Premiere Pro CC 2018 v12.0.0.224 incl + Patch',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7846, date: '2019-03-15', seeds: 7550, leeches: 296},
+      {peers: 2, date: '2019-03-16', seeds: 2, leeches: 0}
+    ]
+  },
+  {
+    name: 'EaseUS Data Recovery Wizard Professional 7.5+Crack',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7846, date: '2019-03-15', seeds: 7545, leeches: 301},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Smadav Pro 2017 v11.3.5 Final + Serial - [SH]',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7846, date: '2019-03-15', seeds: 7543, leeches: 303},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Sony Vegas Pro 13.0 Build 453 (x64) + Patch DI',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7846, date: '2019-03-15', seeds: 7517, leeches: 329},
+      {peers: 1, date: '2019-03-16', seeds: 1, leeches: 0}
+    ]
+  },
+  {
+    name: 'Microsoft Office Professional Plus (x64) 2013 Incl Activator -',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7846, date: '2019-03-15', seeds: 7529, leeches: 317},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'AVS Video Editor 7.1.4.264 + Crack {B4tman}',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7843, date: '2019-03-15', seeds: 7524, leeches: 319},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Internet Download Manager IDM 6.28 build 10 32bit + 64bit Patch',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7842, date: '2019-03-15', seeds: 7526, leeches: 316},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Kaspersky Internet Security 2019 v19.0.0.1088 + Crack',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7842, date: '2019-03-15', seeds: 7525, leeches: 317},
+      {peers: 1, date: '2019-03-16', seeds: 0, leeches: 1}
+    ]
+  },
+  {
+    name: 'Microsoft Office Professional Plus 2013 x86 PT-BR + Ativador',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7841, date: '2019-03-15', seeds: 7518, leeches: 323},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  },
+  {
+    name: 'Image-Line Fruity Loops Studio Edition 10.0.0 @vAin4us',
+    size: 8420065,
+    categories: 'Applications:Windows',
+    createdAt: '2019-03-13',
+    files: null,
+    dates: [
+      {peers: 7841, date: '2019-03-15', seeds: 7486, leeches: 355},
+      {peers: 0, date: '2019-03-16', seeds: 0, leeches: 0}
+    ]
+  }
 ]
 
 beforeAll(async () => {

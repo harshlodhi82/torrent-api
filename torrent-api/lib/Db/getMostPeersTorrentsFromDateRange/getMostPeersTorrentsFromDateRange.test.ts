@@ -32,7 +32,6 @@ const expectedRes = [
         seeds: 19328,
         leeches: 12827
       },
-      {peers: 28996, date: '2019-03-09', seeds: 19318, leeches: 9678},
       {peers: 28300, date: '2019-03-08', seeds: 18608, leeches: 9692}
     ]
   },
@@ -60,8 +59,7 @@ const expectedRes = [
         leeches: 12674
       },
       {peers: 21376, date: '2019-03-07', seeds: 12235, leeches: 9141},
-      {peers: 18837, date: '2019-03-08', seeds: 11811, leeches: 7026},
-      {peers: 18457, date: '2019-03-09', seeds: 11623, leeches: 6834}
+      {peers: 18837, date: '2019-03-08', seeds: 11811, leeches: 7026}
     ]
   },
   {
@@ -87,8 +85,7 @@ const expectedRes = [
       {peers: 15561, date: '2019-03-05', seeds: 13034, leeches: 2527},
       {peers: 15338, date: '2019-03-06', seeds: 12937, leeches: 2401},
       {peers: 14630, date: '2019-03-07', seeds: 12486, leeches: 2144},
-      {peers: 13619, date: '2019-03-08', seeds: 11756, leeches: 1863},
-      {peers: 13424, date: '2019-03-09', seeds: 11596, leeches: 1828}
+      {peers: 13619, date: '2019-03-08', seeds: 11756, leeches: 1863}
     ]
   },
   {
@@ -117,8 +114,7 @@ const expectedRes = [
     dates: [
       {peers: 11723, date: '2019-03-06', seeds: 7504, leeches: 4219},
       {peers: 7870, date: '2019-03-07', seeds: 5904, leeches: 1966},
-      {peers: 6100, date: '2019-03-08', seeds: 4832, leeches: 1268},
-      {peers: 6046, date: '2019-03-09', seeds: 4712, leeches: 1334}
+      {peers: 6100, date: '2019-03-08', seeds: 4832, leeches: 1268}
     ]
   }
 ]
